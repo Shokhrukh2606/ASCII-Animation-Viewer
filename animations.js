@@ -2,7 +2,7 @@
 // This file contains the ASCII animations as large strings.
 //
 // You can refer to them by variable names such as blank or dive, or by indexes
-// into an array ANIMATIONS, such as ANIMATIONS["Bike"] or ANIMATIONS["Dive"].
+// into an array Animation, such as Animation["Bike"] or Animation["Dive"].
 //
 // The former is probably more intuitive for new programmers, but the latter
 // may allow you to write more elegant code by indexing using the text of the
@@ -639,11 +639,11 @@ var DIVE = "  o\n" +
 
 
 // can also access the animations as an associative array / hash map,
-// such as ANIMATIONS["Bike"] or ANIMATIONS["Dive"]
-var ANIMATIONS = [];
-ANIMATIONS["Blank"] = ANIMATIONS["blank"] = ANIMATIONS["BLANK"] = "";
-ANIMATIONS["Custom"] = ANIMATIONS["custom"] = ANIMATIONS["CUSTOM"] = CUSTOM;   // you could change the value of this in your code
-ANIMATIONS["Exercise"] = ANIMATIONS["exercise"] = ANIMATIONS["EXERCISE"] = EXERCISE;
-ANIMATIONS["Juggler"] = ANIMATIONS["juggler"] = ANIMATIONS["JUGGLER"] = JUGGLER;
-ANIMATIONS["Bike"] = ANIMATIONS["bike"] = ANIMATIONS["BIKE"] = BIKE;
-ANIMATIONS["Dive"] = ANIMATIONS["dive"] = ANIMATIONS["DIVE"] = DIVE;
+// such as Animation["Bike"] or Animation["Dive"]
+var Animation = [];
+Animation["Blank"] = Animation["blank"] = Animation["BLANK"] = "";
+Animation["Custom"] = Animation["custom"] = Animation["CUSTOM"] = CUSTOM;   // you could change the value of this in your code
+Animation["Exercise"] = Animation["exercise"] = Animation["EXERCISE"] = EXERCISE;
+Animation["Juggler"] = Animation["juggler"] = Animation["JUGGLER"] = JUGGLER;
+Animation["Bike"] = Animation["bike"] = Animation["BIKE"] = BIKE;
+Animation["Dive"] = Animation["dive"] = Animation["DIVE"] = DIVE;
